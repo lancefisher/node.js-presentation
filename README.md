@@ -1,8 +1,4 @@
-# reveal.js
-
-##Outline
-
-###Intro to node.js
+#Intro to node.js
 
 ###What is node.js
 
