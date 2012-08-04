@@ -1,46 +1,57 @@
 # reveal.js
 
-Outline
+##Outline
 
-What is node.js
-Why node.js
-  evented i/o
-  JavaScript is fun
+###Intro to node.js
 
-Installing
-  On Windows or Mac, use an installer
-  On Linux, use your favorite package manager
+###What is node.js
 
-npm
+###Evented I/O
+ * JavaScript on the server!
+ * Evented I/O
 
-A web server
-	var http = require('http');
-	http.createServer(function (req, res) {
-	  res.writeHead(200, {'Content-Type': 'text/plain'});
-	  res.end('Hello World\n');
-	}).listen(1337, '127.0.0.1');
-	console.log('Server running at http://127.0.0.1:1337/');
+###Installing
+* On Windows or Mac, use an installer
+* On Linux, use your favorite package manager
 
-socket.io
+###A web server
+````
+var http = require('http');
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('Hello World\n');
+}).listen(1337, '127.0.0.1');
+console.log('Server running at http://127.0.0.1:1337/');
+````
 
-A chat server
+###NPM
+Node Package Manager
 
-express.js
+###REPL
+Read Eval Print Loop
 
-Tips
-  Don't block
+###Core Modules
+e.g. http
 
-Make your own scripts:
-   chmod +x hello.js
-   #!/usr/bin/env node
+###Files as Modules
+var thing = require('./mything')
 
-Async
+###Callbacks
+THE convention
 
-debugging
-  Use Chrome
-  node-inspector
+###socket.io
+Realtime
+Pushing to the client
 
+###Debugging
+node debug
+node-inspector
 
+###Make your own scripts:
+````
+chmod +x hello.js
+#!/usr/bin/env node
+````
 
 #Links
 * [Installers for Mac and Windows (http://nodejs.org/#download)]
