@@ -41,6 +41,7 @@ Pushing to the client
 
 ###Debugging
 node debug
+util.inspect
 node-inspector
 
 ###Make your own scripts:
