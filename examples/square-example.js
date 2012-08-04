@@ -1,3 +1,5 @@
 var square = require('./square');
 
-console.log('square of 2:', square.area(2));
+var side = 2;
+var area = square.area(2);
+console.log('square of', side, 'is', area);

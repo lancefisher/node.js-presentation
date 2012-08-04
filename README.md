@@ -51,3 +51,8 @@ debugging
 
 #Credits
 Presentation built with [reveal.js (https://github.com/hakimel/reveal.js)]
+Running locally with:
+
+````
+$ python -m SimpleHTTPServer
+````

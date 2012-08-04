@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 sayHello();
 
 function sayHello() {
