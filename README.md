@@ -1,5 +1,7 @@
 #Intro to node.js
 
+View the presentation at: http://lancefisher.github.com/node.js-presentation/
+
 ###What is node.js
 
 ###Evented I/O
